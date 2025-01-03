@@ -1,0 +1,18 @@
+{
+    
+    "updateAuthority": "0x5a372f0dD203A66784E5fe28d808664d9621ED12",
+    "data": {
+      "name": "F3AI",
+      "symbol": "FHN",
+      "uri": "https://aquamarine-generous-barracuda-163.mypinata.cloud/ipfs/bafybeihnznyfyxsik62qi36wmcy5ajdvemasmxvekmrperuwotgg5ejhmu",
+      "creators": [
+        {
+          "address": "0x5a372f0dD203A66784E5fe28d808664d9621ED12",
+          "verified": 1,
+          "share": 100
+        }
+      ]
+    },
+    "isMutable": 1
+  }
+  
