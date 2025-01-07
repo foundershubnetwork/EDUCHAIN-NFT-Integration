@@ -25,7 +25,7 @@ router.post("/mint-nft", async (req, res) => {
   
       // Define the contract ABI and address
       const contractAddress = "0x6B9702e83774022281713452401487b0224770B4";
-      const SimpleNFT = require("../nft/artifacts/contracts/SimpleNFT.sol/SimpleNFT.json");
+      const SimpleNFT = require("../nft/artifacts/contracts/SimpleNFT.sol/SimpleNFT.json");//change according to your project structure
       const contract = new web3.eth.Contract(SimpleNFT.abi, contractAddress);
   
       // Prepare the mintNFT transaction
