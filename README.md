@@ -36,16 +36,16 @@ This repository contains a project for integrating Non-Fungible Tokens (NFTs) wi
 2. Install dependencies: Ensure you have this dependency in the package.json
 
    ```bash
-  {
-  "devDependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "ethers": "^5.7.2"
-  },
-  "dependencies": {
-    "@openzeppelin/contracts": "^4.9.6",
-    "chai": "4.3.7"
-  }
-}
+        {
+        "devDependencies": {
+          "@nomiclabs/hardhat-ethers": "^2.2.3",
+          "ethers": "^5.7.2"
+        },
+        "dependencies": {
+          "@openzeppelin/contracts": "^4.9.6",
+          "chai": "4.3.7"
+        }
+      }
    ```
 
 3. Configure environment variables:
