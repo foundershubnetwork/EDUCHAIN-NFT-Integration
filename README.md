@@ -1,8 +1,10 @@
+
+# Founders Hub Network (F3AI): Human-Powered AI Agents and Quest Platform Connecting Early-Stage Founders with Strategic Capital Solutions.
+Founders Hub Network (F3AI) is innovating startup funding by tokenizing founder potential and enabling AI-powered representation. F3AI addresses inefficiencies in fundraising, investor engagement, and ecosystem collaboration, creating a scalable, trust-centric entrepreneurial economy.We further strengthen our ecosystem by introducing Industry and Vertical Specific AI-Agents, tailored to enhance key business functions such as marketing, technology, finance, growth, and mental health, ensuring founders have comprehensive support throughout their journey.
+
 # NFT Integration with Edu chain
 
-
 This repository contains a project for integrating Non-Fungible Tokens (NFTs) with an EDU-Chain blockchain system. The primary goal is to enable minting NFTs whenever user completes their goals in the form of quests as a reward and a proof of completion.
-
 
 
 ## Features
@@ -31,10 +33,19 @@ This repository contains a project for integrating Non-Fungible Tokens (NFTs) wi
    cd EDUCHAIN-NFT-Integration
    ```
 
-2. Install dependencies:
+2. Install dependencies: Ensure you have this dependency in the package.json
 
    ```bash
-   npm install
+  {
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^5.7.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6",
+    "chai": "4.3.7"
+  }
+}
    ```
 
 3. Configure environment variables:
@@ -60,8 +71,12 @@ This repository contains a project for integrating Non-Fungible Tokens (NFTs) wi
    ```bash
    npx hardhat run scripts/deploymentScript.js --network edu
    ```
-
    The script will output the deployed contract address.
+   
+4. To run Minting Script:
+     ```bash
+      npx hardhat run mintScript.js --network edu
+      ```
 
 ### Minting an NFT
 
