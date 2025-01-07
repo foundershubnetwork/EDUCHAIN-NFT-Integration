@@ -64,7 +64,7 @@ This repository contains a project for integrating Non-Fungible Tokens (NFTs) wi
    npx hardhat compile
    ```
 
-2. Open the `scripts/deploy.js` file and configure the deployment network.
+2. Open the `scripts/deploymentScript.js` file 
 
 3. Run the deployment script:
 
