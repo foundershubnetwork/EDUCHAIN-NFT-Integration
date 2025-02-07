@@ -3,7 +3,7 @@
 Founders Hub Network (F3AI) is revolutionizing startup funding by tokenizing founder potential and introducing AI-driven solutions. By addressing inefficiencies in fundraising, investor engagement, and ecosystem collaboration, F3AI builds a scalable, trust-centric entrepreneurial economy. Tailored Industry and Vertical Specific AI Agents enhance business functions such as marketing, technology, finance, growth, and mental health, offering founders comprehensive support throughout their journey.
 Core innovations include the MLI Framework for secure interactions, the MVT Model linking funding to milestone achievements, and the FounderScore Framework that strengthens trust through data-driven metrics. With features like LiquidityBridge for connecting funding pools and FounderForge for tokenized autonomous AI agents, F3AI fosters transparency, reduces investor risk, and drives ecosystem collaboration, enabling a vibrant Web3 economy.
 
-# NFT Integration with Edu chain
+# NFT Integration with EdU Chain
 
 This repository contains a project for integrating Non-Fungible Tokens (NFTs) with an EDU-Chain blockchain system. The primary goal is to enable minting NFTs whenever user completes their goals in the form of quests as a reward and a proof of completion.
 ### How this works
